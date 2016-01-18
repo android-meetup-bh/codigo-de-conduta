@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Código de Conduta</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 2rem auto;
+      max-width: 40rem;
+    }
+  </style>
+</head>
+<body>
+<div id="content">
+  <h1>Código de conduta</h1>
+  <p>Ferramenta para gerar uma URL com o código de conduta dos GDGs do Brasil</p>
+  <div>
+    <strong>Uso:</strong>
+    <ol>
+      <li>Adicione a url "?", seguida de parâmetros, separados por "/"</li>
+      <li>O primeiro parâmetro é o nome/cidade do seu GDG</li>
+      <li>Do segundo parâmetro pra frente você deve informar os e-mails de contato. Ao menos um e-mail é obrigatório.</li>
+    </ol>
+  </div>
+  <div>
+    <strong>Exemplos:</strong>
+    <ol>
+      <li><a href="/?Recife/gdgrecife@gmail.com/eu@joselitojunior.com">/?Recife/gdgrecife@gmail.com/eu@joselitojunior.com</a></li>
+      <li><a href="/?BH/gdgbh@gmail.com/apgomes88@gmail.com">/?BH/gdgbh@gmail.com/apgomes88@gmail.com</a></li>
+      <li><a href="/?Curitiba/gdgcuritiba@gmail.com/bruno.sbrunoro@gmail.com">/?Curitiba/gdgcuritiba@gmail.com/bruno.sbrunoro@gmail.com</a></li>
+    </ol>
+  </div>
+  <p>Todo conteúdo do código de conduta é obtido <a href="https://github.com/gxgbrasil/codigo-de-conduta">diretamente do GitHub</a>, e todas as páginas serão atualizadas automaticamente com a alteração do repositório.</p>
+</div>
+
+<script src="https://cdn.rawgit.com/chjj/marked/master/lib/marked.js"></script>
+<script type="text/javascript">
+// get parameters and split
+var params = location.search.substring(1).split('/');
+
+// 0 must be the chapter name
+// 1 must exist and is a email
+// 2.. more e-mails
+
+if(params.length >= 2) {
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+        var response = xhr.responseText.replace(/^.*\[contatos].*$/gm, '');
+        response = response.replace(/\[chapter]/g, params[0]);
+        response = response.replace(/\[contato]/g, params[1]);
+        response = response.replace(/^.*\*\*Contato:\*\*.*$/gm, '**Contato:**<ul id="contacts"></ul>');
+        document.getElementById("content").innerHTML = marked(response);
+
+        for(var i = 1; i < params.length; i++){
+          var li = document.createElement("li");
+          var text = document.createTextNode(params[i]);
+          li.appendChild(text);
+          document.getElementById("contacts").appendChild(li);
+        }
+    }
+  }
+  xhr.open('GET', 'https://raw.githubusercontent.com/gxgbrasil/codigo-de-conduta/master/README.md', true);
+  xhr.send(null);
+
+}
+</script>
+</body>
+</html>
