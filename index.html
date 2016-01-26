@@ -55,7 +55,7 @@ if(params.length >= 2) {
 
         for(var i = 1; i < params.length; i++){
           var li = document.createElement("li");
-          var text = document.createTextNode(unescape(params[i]));
+          var text = document.createTextNode(decodeURIComponent(params[i]));
           li.appendChild(text);
           document.getElementById("contacts").appendChild(li);
         }
