@@ -36,6 +36,9 @@
 
 <script src="https://cdn.rawgit.com/chjj/marked/master/lib/marked.js"></script>
 <script type="text/javascript">
+// everybody on the HTTPS train
+if (window.location.protocol != "https:") window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    
 // get parameters and split
 var params = location.search.substring(1).split('/');
 
