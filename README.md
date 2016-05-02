@@ -1,14 +1,14 @@
 # Código de conduta
 
-Guia da comunidade, inspirado no [Anti-Harassment Policy da Google](https://support.google.com/developergroups/answer/3340512?hl=en&ref_topic=3340510) para os GDGs. Nós apoiamos também condutas como [Não seja um idiota](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk).
+Guia da comunidade, inspirado no [Anti-Harassment Policy da Google](https://support.google.com/developergroups/answer/3340512?hl=en&ref_topic=3340510) para o Android Meetup - Belo Horizonte. Nós apoiamos também condutas como [Não seja um idiota](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk).
 
-### Porque temos um código de conduta para o GDG [chapter]?
+### Porque temos um código de conduta para o Android Meetup - Belo Horizonte ?
 
 Ele cria expectativas de comportamento nos nossos eventos. Só ter um código de conduta pode evitar assédio.
 Ele encoraja pessoas que já tiveram experiências ruins anteriormente a participarem dos nossos eventos.
 Ele dá aos organizadores/voluntários instruções de como lidar com situações de assédio rapidamente, com o mínimo de repercussão nos eventos.
 
-### O GDG [chapter] é dedicado a prover um ambiente livre de assédios para todos, independente de:
+### O Android Meetup - Belo Horizonte é dedicado a prover um ambiente livre de assédios para todos, independente de:
 
 - gênero
 - orientação sexual
@@ -38,12 +38,13 @@ Linguagem e imagens de cunho sexual não são apropriados para nenhum evento, in
 
 Parceiros, expositores e palestrantes também estão sujeitos ao código de conduta. Em particular, estes não devem usar de imagens, atividades ou qualquer outro material de cunho sexual ou criar um ambiente desse tipo em sua apresentação, equipe, material de exibição, itens promocionais ou de demonstração.
 
-Se você está sendo sofrendo algum tipo de assédio, percebeu que alguém está ou tem qualquer outra intenção, por favor, [contate imediatamente](mailto:[contato]) um organizador ou voluntário. Eles podem ser identificados por camisas ou crachás especiais em eventos ou através de marcações especiais nos meetups, no caso de eventos online. Os organizadores irão investigar o problema e tomar as ações devidas. Isso pode incluir ajudar os participantes a contatarem a segurança ou as autoridades locais, providenciar escoltas ou ajudar de alguma outra forma os que estiverem sofrendo assédio a se sentirem seguros durante o evento.
+Se você está sendo sofrendo algum tipo de assédio, percebeu que alguém está ou tem qualquer outra intenção, por favor, [contate imediatamente](mailto:felipearimateia@gmail.com) um organizador ou voluntário. Eles podem ser identificados por camisas ou crachás especiais em eventos ou através de marcações especiais nos meetups, no caso de eventos online. Os organizadores irão investigar o problema e tomar as ações devidas. Isso pode incluir ajudar os participantes a contatarem a segurança ou as autoridades locais, providenciar escoltas ou ajudar de alguma outra forma os que estiverem sofrendo assédio a se sentirem seguros durante o evento.
 
 **Contato:**
-- [contatos]
-- [contatos]
-- [contatos]
+
+- Felipe Arimatéia - felipearimateia@gmail.com
+- Fabiano França - email@fabianofranca.com
+- Jean Pimentel - contato@jeanpimentel.com.br
 
 Apesar de esperarmos que nunca precisemos invocar esse código de conduta, acreditamos que ter esse documento leva todos a uma reflexão sobre como suas ações e palavras afetam toda a comunidade, assim como indivíduos da comunidade.
 
